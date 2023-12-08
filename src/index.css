@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --bg-clor: #000;
+  --second-bg-color: #000;
+  --text-color: #fff;
+  --main-color:  blue;
+
+}
+
+
+body {
+  background: black;
+}
+
+html{
+ 
+  overflow-x: hidden;
+
+}
+
+
+h1, h4, p, a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+
+
+@media (max-width: 1200px){
+  html{
+    font-size: 65%;
+  }
+}
+
+
